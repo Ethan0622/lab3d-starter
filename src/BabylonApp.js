@@ -1,4 +1,5 @@
 import * as BABYLON from "@babylonjs/core/Legacy/legacy"
+import "@babylonjs/loaders/glTF"
 import createScene from "./babylon/createScene"
 
 export default class BabylonApp {
