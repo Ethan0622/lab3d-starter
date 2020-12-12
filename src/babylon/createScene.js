@@ -20,7 +20,7 @@ export default function(canvas, engine) {
   let light1 = new BABYLON.HemisphericLight('light1', new BABYLON.Vector3(1, 1, 0), scene)
   let light2 = new BABYLON.PointLight('light2', new BABYLON.Vector3(0, 1, -1), scene)
 
-  BABYLON.SceneLoader.ImportMeshAsync('', '', modelUrl, scene, undefined, '.glb')
+  BABYLON.SceneLoader.ImportMeshAsync('', modelUrl, '', scene, undefined, '.glb')
 
   return scene
 }
