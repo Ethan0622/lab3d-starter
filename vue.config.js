@@ -7,7 +7,7 @@ module.exports = {
             .use('url-loader')
             .loader('url-loader')
             .options({
-                limit: 2048, 
+                limit: 0, 
                 outputPath:'assets/'
             })
             .end()

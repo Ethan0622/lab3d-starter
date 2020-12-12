@@ -13,6 +13,7 @@
 此外还进行了以下特殊配置：
 
 - 禁止使用 var 声明变量，必须使用 const 或 let，否则将会报错；
+- 支持使用 Webpack loader 打包 .glb 文件，这类文件会被单独打包到 /assets 文件夹。
 
 ## Project setup
 
